@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card.small-card {
+    display: flex;
+    width: 472px;
+    height: 88px;
+    width: 472px;
+}
+
+.card.large-card {
+    width: 413px;
+    height: 466px;  
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-image {
+    width: 64px;
+    height: 64px;
+    background: #C4C4C4;
+    margin: 12px;
+    padding-right: 5px;
+}
+
+.large-card-image {
+    width: 413px;
+    height: 150px;
+    background: #C4C4C4;
+}
+
+.card-content {
+    justify-content: center;
+}
+
+.card-title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: bold;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.large-card-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: 29.05px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-description {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #222222;
+}
+
+.large-card-description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.card-button {
+    width: 100px;
+    height: 47px;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 94px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+
+.card-date {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+    justify-content: left;
+    color: #808080;
+    margin-top: 4px;
+    margin-right: 250px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    justify-content: right;
+    background: #C4C4C4;
+    margin-right: 250px;
+    margin: 0 5px;
+}
